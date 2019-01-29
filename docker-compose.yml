@@ -1,0 +1,11 @@
+version: '2'
+services:
+  website:
+    container_name: php72
+    image: php_img:latest
+    build:
+      context: ./
+    volumes:
+      - C:\Users\thuli\Dockers\DockerTest\src:/var/www/html/
+    ports:
+      - 8000:80
