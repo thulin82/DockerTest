@@ -1,3 +1,3 @@
-# [DockerTest](https://github.com/thulin82/dockertest)
+# [DockerTest](https://github.com/thulin82/DockerTest)
 
 © Markus Thulin 2019-
