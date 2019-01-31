@@ -12,6 +12,9 @@ build:
 down:
 	docker-compose.exe down
 
+cont:
+	docker.exe container ls
+
 require:
 	docker-compose.exe run ${container} composer require
 
