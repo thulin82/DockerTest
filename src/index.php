@@ -4,7 +4,7 @@ $conn = new mysqli("db", "db_user", "my_pw", "my_db");
 if ($conn->connect_error) {
 	die("Connection failed: " . $conn->connect_error);
 }
-conn->set_charset("utf8");
+$conn->set_charset("utf8");
 
 $sql = "SELECT full FROM my_table";
 $result = $conn->query($sql);
