@@ -1,0 +1,22 @@
+{
+  "name": "DockerWithNode",
+  "version": "1.0.0",
+  "description": "Docker with Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thulin82/DockerTest.git"
+  },
+  "keywords": [
+    "docker",
+    "node"
+  ],
+  "author": "thulin82",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
