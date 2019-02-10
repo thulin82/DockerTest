@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
   db:
     image: mysql:5.7
@@ -28,12 +28,12 @@ services:
     depends_on:
       - db
   website:
-    container_name: php72
+    container_name: php73
     image: php_img:latest
     build:
       context: ./
     volumes:
-      - C:\Users\thuli\Dockers\DockerTest\src:/var/www/html/
+      - C:\Users\thuli\Dockers\DockerTest\PHP\src:/var/www/html/
     ports:
       - 8000:80
     depends_on:
