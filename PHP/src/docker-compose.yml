@@ -33,7 +33,7 @@ services:
     build:
       context: ./
     volumes:
-      - C:\Users\thuli\Dockers\DockerTest\PHP\src:/var/www/html/
+      - .:/var/www/html/
     ports:
       - 8000:80
     depends_on:
