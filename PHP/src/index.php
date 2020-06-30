@@ -1,4 +1,5 @@
 <?php
+echo 'Current PHP version: ' . phpversion() . '<br><br>';
 $conn = new mysqli("mysql57", "db_user", "my_pw", "my_db");
 // Check connection
 if ($conn->connect_error) {

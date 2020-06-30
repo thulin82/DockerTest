@@ -28,7 +28,7 @@ services:
     depends_on:
       - db
   website:
-    container_name: php73
+    container_name: php74
     image: php_img:latest
     build:
       context: ./
