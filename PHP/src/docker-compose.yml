@@ -15,7 +15,7 @@ services:
     ports:
       - 8082:3306
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin
+    image: phpmyadmin/phpmyadmin:latest
     container_name: phpmyadmin
     volumes:
       - /sessions
