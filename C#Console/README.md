@@ -9,5 +9,5 @@ docker build -t dotnet_console_img .
 #### Run
 
 ```bash
-docker run dotnet_console_img
+docker run --name dotnet_console dotnet_console_img
 ```
